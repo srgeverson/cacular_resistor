@@ -1,4 +1,4 @@
-package com.mycompany.calcular_resistor;
+package calcular_resistor;
 
 public enum CorEnum {
 

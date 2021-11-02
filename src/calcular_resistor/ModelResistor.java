@@ -1,4 +1,4 @@
-package com.mycompany.calcular_resistor;
+package calcular_resistor;
 
 public class ModelResistor {
 
@@ -27,7 +27,7 @@ public class ModelResistor {
     }
 
     public Double getTerceiroAnel() {
-        var terceiroAnelTemp = "1";
+        String terceiroAnelTemp = "1";
         if (terceiroAnel > -1) {
             for (int i = 0; i < terceiroAnel; i++) {
                 terceiroAnelTemp += String.valueOf(0);

@@ -1,4 +1,4 @@
-package com.mycompany.calcular_resistor;
+package calcular_resistor;
 
 import javax.swing.UIManager;
 import javax.swing.UIManager.LookAndFeelInfo;
@@ -17,8 +17,8 @@ public class InicializaCalcularResistor {
                 }
             }
             System.out.println("Fim da configuração de visualização da interface.");
-            ViewCalculaResistor viewCalculaResistor = new ViewCalculaResistor();
-            viewCalculaResistor.setVisible(true);
+            CalcularResistorView calcularResistorView = new CalcularResistorView();
+            calcularResistorView.setVisible(true);
             System.out.println("Aplicação iniciada com sucesso!.");
         } catch (ClassNotFoundException | IllegalAccessException | InstantiationException | UnsupportedLookAndFeelException e) {
             System.out.println(String.format("Erro ao iniciar a aplicação: %s. Finalizando a aplicação.", e.getMessage()));
